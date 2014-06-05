@@ -1,7 +1,7 @@
 vagrant-fusrohdah
 =================
 
-Deploying the Fushrodah Site via Vagrant or Docker
+Put a little Skyrim in your DevOps - Fus Ro Dah via Docker and Vagrant!
 
 For more information on Vagrant, please visit their website http://www.vagrantup.com/
 
