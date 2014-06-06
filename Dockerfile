@@ -13,8 +13,7 @@ ENV APACHE_LOG_DIR /var/log/apache2/
 RUN apt-get update
 RUN apt-get install -y git apache2
 RUN rm -rf /var/www
-RUN git clone https://github.com/djdefi/fusrohdah.com.git /var/www 
-RUN ln -fs /vagrant/www /var/www
+RUN git clone https://github.com/djdefi/fusrohdah.com.git /var/www
 
 EXPOSE 80
 
