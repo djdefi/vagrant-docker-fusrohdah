@@ -14,6 +14,7 @@ RUN apt-get update
 RUN apt-get install -y git apache2
 RUN rm -rf /var/www
 RUN git clone https://github.com/djdefi/fusrohdah.com.git /var/www
+RUN rm -rf /var/www/.git
 
 EXPOSE 80
 
