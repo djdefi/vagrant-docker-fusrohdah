@@ -5,4 +5,5 @@ MAINTAINER Ryan Trauntvein <rtrauntvein@novacoast.com>
 RUN rm -rf /var/www
 RUN git clone https://github.com/djdefi/fusrohdah.com.git /var/www
 RUN rm -rf /var/www/.git
+EXPOSE 80
 CMD 'nginx'
